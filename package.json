@@ -1,0 +1,28 @@
+{
+  "name": "santex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w src -r tsconfig-paths/register --ext ts --exec ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "Robert Duarte",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "graphql": "^15.3.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.2",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.2.41"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  }
+}

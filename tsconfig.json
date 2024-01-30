@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": [
+      "es2017",
+      "es2019",
+      "DOM"
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "baseUrl": "src",
+    "paths": {
+      "@adapters/*": [
+        "adapters/*"
+      ],
+      "@database": [
+        "database"
+      ],
+      "@models": [
+        "models"
+      ],
+      "@resolvers": [
+        "resolvers"
+      ],
+      "@services/*": [
+        "services/*"
+      ],
+    },
+    "sourceMap": true,
+    "outDir": "./dist",
+  },
+  "include": [
+    "./**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+}
